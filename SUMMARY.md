@@ -2,29 +2,6 @@
 
 * [Intro](README.md)
 
-## Tools
-
-* [Version Control](tools/version-control/README.md)
-  * [Git](tools/version-control/git.md)
-  * [Subversion](tools/version-control/subversion.md)
-* [Operating Systems](tools/operating-systems/README.md)
-  * [Immutable](tools/operating-systems/immutable.md)
-  * [DOS Family](tools/operating-systems/dos-family/README.md)
-    * [Windows](tools/operating-systems/dos-family/windows.md)
-  * [Unix Family](tools/operating-systems/unix-family/README.md)
-    * [Linux](tools/operating-systems/unix-family/linux/README.md)
-      * [Distros](tools/operating-systems/unix-family/linux/distros.md)
-    * [BSD](tools/operating-systems/unix-family/bsd.md)
-    * [MacOS](tools/operating-systems/unix-family/macos.md)
-* [CLI](tools/cli.md)
-* [Text Editors](tools/text-editors.md)
-* [Package Mangers](tools/package-mangers.md)
-* [IDE](tools/ide.md)
-* [Compiler](tools/compiler/README.md)
-  * [Parsing](tools/compiler/parsing/README.md)
-    * [Parser Combinators](tools/compiler/parsing/parser-combinators.md)
-  * [Untitled](tools/compiler/untitled.md)
-
 ## Langauges
 
 * [Intro](langauges/intro.md)
@@ -69,14 +46,26 @@
         * [Rose Tree](langauges/type-system/abstract-data-types/graph/tree/rose-tree.md)
   * [Generics](langauges/type-system/generics.md)
 * [Effect System](langauges/effect-system.md)
+* [Compiler](langauges/compiler/README.md)
+  * [Parsing](langauges/compiler/parsing/README.md)
+    * [Parser Combinators](langauges/compiler/parsing/parser-combinators.md)
+  * [Untitled](langauges/compiler/untitled.md)
 
-## Networks
+## Data Structures
 
-* [Intro](networks/intro.md)
-* [Protocols](networks/protocols/README.md)
-  * [TCP/IP](networks/protocols/tcp-ip.md)
-  * [SSH](networks/protocols/ssh.md)
-* [Resources](networks/resources.md)
+* [Intro](data-structures/intro.md)
+* [Sequences](data-structures/sequences/README.md)
+  * [Vector](data-structures/sequences/vector.md)
+  * [List](data-structures/sequences/list.md)
+  * [Array](data-structures/sequences/array.md)
+* [Resources](data-structures/resources.md)
+
+## Algorithms
+
+* [Intro](algorithms/intro.md)
+* [Sorting](algorithms/sorting/README.md)
+  * [Bogosort](algorithms/sorting/bogosort.md)
+* [Resources](algorithms/resources.md)
 
 ## Systems
 
@@ -106,10 +95,23 @@
     * [Processes](systems/parallelism/units/processes.md)
     * [Threads](systems/parallelism/units/threads.md)
     * [Fibers](systems/parallelism/units/fibers.md)
+* [Operating Systems](systems/operating-systems/README.md)
+  * [Immutable](systems/operating-systems/immutable.md)
+  * [DOS Family](systems/operating-systems/dos-family/README.md)
+    * [Windows](systems/operating-systems/dos-family/windows.md)
+  * [Unix Family](systems/operating-systems/unix-family/README.md)
+    * [Linux](systems/operating-systems/unix-family/linux/README.md)
+      * [Distros](systems/operating-systems/unix-family/linux/distros.md)
+    * [BSD](systems/operating-systems/unix-family/bsd.md)
+    * [MacOS](systems/operating-systems/unix-family/macos.md)
 
-## Stack
+## Networks
 
-* [Stack](stack/stack.md)
+* [Intro](networks/intro.md)
+* [Protocols](networks/protocols/README.md)
+  * [TCP/IP](networks/protocols/tcp-ip.md)
+  * [SSH](networks/protocols/ssh.md)
+* [Resources](networks/resources.md)
 
 ## Technologies
 
@@ -120,18 +122,13 @@
   * [JavaScript](technologies/web/javascript.md)
   * [JQuery](technologies/web/jquery.md)
 
-## Data Structures
+## Tools
 
-* [Intro](data-structures/intro.md)
-* [Sequences](data-structures/sequences/README.md)
-  * [Vector](data-structures/sequences/vector.md)
-  * [List](data-structures/sequences/list.md)
-  * [Array](data-structures/sequences/array.md)
-* [Resources](data-structures/resources.md)
-
-## Algorithms
-
-* [Intro](algorithms/intro.md)
-* [Sorting](algorithms/sorting/README.md)
-  * [Bogosort](algorithms/sorting/bogosort.md)
-* [Resources](algorithms/resources.md)
+* [Version Control](tools/version-control/README.md)
+  * [Git](tools/version-control/git.md)
+  * [Subversion](tools/version-control/subversion.md)
+* [CLI](tools/cli.md)
+* [Text Editors](tools/text-editors.md)
+* [Package Mangers](tools/package-mangers.md)
+* [IDE](tools/ide.md)
+* [Stack](tools/stack.md)
