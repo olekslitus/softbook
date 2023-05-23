@@ -1,0 +1,137 @@
+# Table of contents
+
+* [Intro](README.md)
+
+## Tools
+
+* [Version Control](tools/version-control/README.md)
+  * [Git](tools/version-control/git.md)
+  * [Subversion](tools/version-control/subversion.md)
+* [Operating Systems](tools/operating-systems/README.md)
+  * [Immutable](tools/operating-systems/immutable.md)
+  * [DOS Family](tools/operating-systems/dos-family/README.md)
+    * [Windows](tools/operating-systems/dos-family/windows.md)
+  * [Unix Family](tools/operating-systems/unix-family/README.md)
+    * [Linux](tools/operating-systems/unix-family/linux/README.md)
+      * [Distros](tools/operating-systems/unix-family/linux/distros.md)
+    * [BSD](tools/operating-systems/unix-family/bsd.md)
+    * [MacOS](tools/operating-systems/unix-family/macos.md)
+* [CLI](tools/cli.md)
+* [Text Editors](tools/text-editors.md)
+* [Package Mangers](tools/package-mangers.md)
+* [IDE](tools/ide.md)
+* [Compiler](tools/compiler/README.md)
+  * [Parsing](tools/compiler/parsing/README.md)
+    * [Parser Combinators](tools/compiler/parsing/parser-combinators.md)
+  * [Untitled](tools/compiler/untitled.md)
+
+## Langauges
+
+* [Intro](langauges/intro.md)
+* [Error Handling](langauges/error-handling/README.md)
+  * [Exceptions](langauges/error-handling/exceptions.md)
+  * [Result & Option](langauges/error-handling/result-and-option.md)
+* [Basics](langauges/basics.md)
+* [Abstractions](langauges/abstractions.md)
+* [Computation Models](langauges/computation-models.md)
+* [Macros](langauges/macros.md)
+* [Data Structures](langauges/data-structures/README.md)
+  * [Array](langauges/data-structures/array/README.md)
+    * [Vector / Dynamic Array](langauges/data-structures/array/vector-dynamic-array.md)
+  * [Linked List](langauges/data-structures/linked-list.md)
+  * [Record / Struct / Tuple](langauges/data-structures/record-struct-tuple.md)
+  * [Trie](langauges/data-structures/trie.md)
+  * [Hash Map / Hash Table](langauges/data-structures/hash-map-hash-table.md)
+* [Paradigms](langauges/paradigms/README.md)
+  * [Constraint programming](langauges/paradigms/constraint-programming.md)
+  * [Automata-based Programming](langauges/paradigms/automata-based-programming.md)
+  * [Iterative](langauges/paradigms/iterative.md)
+  * [Object Oriented](langauges/paradigms/object-oriented.md)
+  * [Functional](langauges/paradigms/functional.md)
+  * [Logical](langauges/paradigms/logical.md)
+  * [Language Oriented](langauges/paradigms/language-oriented.md)
+  * [Collection Oriented](langauges/paradigms/collection-oriented/README.md)
+    * [Array Programming](langauges/paradigms/collection-oriented/array-programming.md)
+* [Type System](langauges/type-system/README.md)
+  * [Primitive Data Types](langauges/type-system/primitive-data-types.md)
+  * [Abstract Data Types](langauges/type-system/abstract-data-types/README.md)
+    * [Queue](langauges/type-system/abstract-data-types/queue.md)
+    * [Stack](langauges/type-system/abstract-data-types/stack.md)
+    * [Array](langauges/type-system/abstract-data-types/array.md)
+    * [Map / Dictionary](langauges/type-system/abstract-data-types/map-dictionary.md)
+    * [List](langauges/type-system/abstract-data-types/list.md)
+    * [Set](langauges/type-system/abstract-data-types/set/README.md)
+      * [Multiset / Bag](langauges/type-system/abstract-data-types/set/multiset-bag.md)
+    * [Graph](langauges/type-system/abstract-data-types/graph/README.md)
+      * [Tree](langauges/type-system/abstract-data-types/graph/tree/README.md)
+        * [Binary Tree](langauges/type-system/abstract-data-types/graph/tree/binary-tree.md)
+        * [B-tree](langauges/type-system/abstract-data-types/graph/tree/b-tree.md)
+        * [Rose Tree](langauges/type-system/abstract-data-types/graph/tree/rose-tree.md)
+  * [Generics](langauges/type-system/generics.md)
+* [Effect System](langauges/effect-system.md)
+
+## Networks
+
+* [Intro](networks/intro.md)
+* [Protocols](networks/protocols/README.md)
+  * [TCP/IP](networks/protocols/tcp-ip.md)
+  * [SSH](networks/protocols/ssh.md)
+* [Resources](networks/resources.md)
+
+## Systems
+
+* [Memory](systems/memory/README.md)
+  * [Primitives](systems/memory/primitives/README.md)
+    * [Pointer](systems/memory/primitives/pointer.md)
+  * [Stack](systems/memory/stack.md)
+  * [Heap](systems/memory/heap.md)
+  * [Garbage Collection](systems/memory/garbage-collection/README.md)
+    * [Reference Counting](systems/memory/garbage-collection/reference-counting.md)
+    * [Alternatives](systems/memory/garbage-collection/alternatives.md)
+* [Virtualization](systems/virtualization/README.md)
+  * [Containers](systems/virtualization/containers/README.md)
+    * [Orchestration](systems/virtualization/containers/orchestration.md)
+    * [Docker](systems/virtualization/containers/docker.md)
+    * [Podman](systems/virtualization/containers/podman.md)
+  * [Virtual Machines](systems/virtualization/virtual-machines.md)
+* [Concurrency](systems/concurrency/README.md)
+  * [Futures](systems/concurrency/futures.md)
+  * [Software Transactional Memory](systems/concurrency/software-transactional-memory.md)
+* [Parallelism](systems/parallelism/README.md)
+  * [Models](systems/parallelism/models/README.md)
+    * [Actor Model](systems/parallelism/models/actor-model.md)
+    * [State Machine Model](systems/parallelism/models/state-machine-model/README.md)
+      * [Statecharts / Hierarchical State Machine](systems/parallelism/models/state-machine-model/statecharts-hierarchical-state-machine.md)
+  * [Units](systems/parallelism/units/README.md)
+    * [Processes](systems/parallelism/units/processes.md)
+    * [Threads](systems/parallelism/units/threads.md)
+    * [Fibers](systems/parallelism/units/fibers.md)
+
+## Stack
+
+* [Stack](stack/stack.md)
+
+## Technologies
+
+* [Databases](technologies/databases.md)
+* [Web](technologies/web/README.md)
+  * [HTML](technologies/web/html.md)
+  * [CSS](technologies/web/css.md)
+  * [JavaScript](technologies/web/javascript.md)
+  * [JQuery](technologies/web/jquery.md)
+
+## Data Structures
+
+* [Intro](data-structures/intro.md)
+* [Sequences](data-structures/sequences/README.md)
+  * [Vector](data-structures/sequences/vector.md)
+  * [List](data-structures/sequences/list.md)
+  * [Array](data-structures/sequences/array.md)
+* [Resources](data-structures/resources.md)
+
+## Algorithms
+
+* [Intro](algorithms/intro.md)
+* [Sorting](algorithms/sorting/README.md)
+  * [Bogosort](algorithms/sorting/bogosort.md)
+* [Resources](algorithms/resources.md)
